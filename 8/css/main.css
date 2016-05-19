@@ -1,0 +1,259 @@
+body {
+    font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Meiryo UI','メイリオ',Verdana,'ＭＳ Ｐゴシック',sans-serif;
+    margin: 0;
+    background-image: url(../img/report_bk01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(173, 204, 194, 1);
+}
+
+header {
+    height: 65px;
+    background-color: rgba(255, 215, 0, 0.6);
+    box-shadow:0px 7px 10px -6px #878787;
+}
+
+header h1{
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.subheader {
+    width: 980px;
+    height: 70px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#errorMsg {
+    width: 980px;
+    height: 25px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 18px;
+    text-align: center;
+}
+
+#loginPage {
+    width: 980px;
+    height: 250px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#selectShop {
+    width: 980px;
+    height: 200px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#inputReport {
+    width: 980px;
+    height: 700px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#showUser {
+    width: 980px;
+    height: 300px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#outputReport {
+    width: 980px;
+    height: 700px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+h2 {
+    padding: 15px 15px;
+    margin: 0 0;
+    float: left;
+    width: 800px;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+
+ul li p {
+    height: 54px;
+    margin: 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.loginFormArea {
+    display: table-cell;
+    vertical-align: middle;
+    width: 300px;
+    height: 54px;
+}
+
+.loginFormArea input {
+    height: 24px;
+    width: 280px;
+    opacity: 0.6;
+}
+
+.formArea {
+    display: table-cell;
+    vertical-align: middle;
+    width: 180px;
+    height: 54px;
+}
+
+.formArea input[type=text] {
+    height: 24px;
+    width: 176px;
+    opacity: 0.6;
+}
+
+.loginUl {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btnCntr {
+    text-align: center;
+}
+
+ul li div select {
+    height: 30px;
+    width: 200px;
+    opacity: 0.6;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+    background: #FFD700;
+    border-color: #FFD700;
+    color: #333;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=number] {
+    height: 24px;
+    width: 100px;
+    text-align: right;
+    opacity: 0.6;
+}
+
+input {
+    font-size: 18px;
+}
+
+select {
+    font-size: 18px;
+}
+
+textarea {
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.radioLabel:hover {
+    background-color: #FFF9D9;
+    border-color: #FFED8C;
+    color: #333;
+    transition: all .3s;
+}
+
+.titleLabel {
+    width: 150px;
+    height: 54px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.radioLabel {
+    width: 180px;
+    height: 54px;
+    display: block;
+    text-align: center;
+    background-color: #65ace4;
+    border: 2px solid #65ace4;
+    color: #fff;
+    line-height: 50px;
+    transition: all .3s;
+    cursor: pointer; 
+}
+
+.rptSbt {
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 54px;
+    width: 120px;
+
+    background-color: #E4B22F;
+    border: 2px solid #E4B22F;
+    color: #000;
+    transition: all .3s;
+    cursor: pointer; 
+}
+
+.rptSbt:hover {
+    background-color: #E88705;
+    border-color: #E88705;
+    color: #fff;
+    transition: all .3s;
+}
+
+#showUser table {
+    font-size: 18px;
+}
+
+#showUser thead th {
+    background-color: aqua;
+    opacity: 0.6;
+    border: 0
+}
+
+.thId {
+    width: 80px;
+}
+
+.thEmail {
+    width: 300px;
+}
+
+.thNickname {
+    width: 310px;
+}
+
+.thAuthority {
+    width: 120px;
+}
+
+.thShopName {
+    width: 150px;
+}
+
